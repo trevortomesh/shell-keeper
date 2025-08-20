@@ -1,0 +1,9 @@
+README.md
+setup.py
+sk.py
+shell_keeper.egg-info/PKG-INFO
+shell_keeper.egg-info/SOURCES.txt
+shell_keeper.egg-info/dependency_links.txt
+shell_keeper.egg-info/entry_points.txt
+shell_keeper.egg-info/requires.txt
+shell_keeper.egg-info/top_level.txt

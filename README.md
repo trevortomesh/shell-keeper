@@ -1,5 +1,5 @@
 
-# Shell Keeper (sk)
+# ![sk](/Users/trevortomesh/Desktop/sk.png)Shell Keeper (sk)
 
 Shell Keeper is a command-line tool to save, retrieve, and manage your favorite shell commands. It features interactive navigation, clipboard integration, and customizable storage location.
 
@@ -11,7 +11,10 @@ Shell Keeper is a command-line tool to save, retrieve, and manage your favorite 
 - Store commands in a JSON file (customizable location)
 - Installable as a global executable (`sk`)
 
+
 ## Installation
+
+### Recommended: Install with pipx
 
 1. Clone the repository:
 
@@ -20,13 +23,42 @@ Shell Keeper is a command-line tool to save, retrieve, and manage your favorite 
    cd shell-keeper
    ```
 
-2. Install with pip:
+2. Install pipx (if not already installed):
 
    ```sh
-   pip install .
+   brew install pipx
    ```
 
-   This will make the `sk` command available globally.
+3. Install Shell Keeper globally:
+
+   ```sh
+   pipx install .
+   ```
+
+4. Ensure pipx's binary directory is on your PATH:
+
+   ```sh
+   pipx ensurepath
+   source ~/.zshrc  # or restart your terminal
+   ```
+
+After this, you can run `sk` from anywhere in your shell.
+
+### Alternative: Install with pip (not recommended for Homebrew Python)
+
+```sh
+pip install . --break-system-packages
+```
+
+Or use a virtual environment:
+
+```sh
+python3 -m venv ~/sk-venv
+source ~/sk-venv/bin/activate
+pip install .
+```
+
+This will make the `sk` command available only within the virtual environment.
 
 ## Usage
 
