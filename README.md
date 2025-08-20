@@ -1,5 +1,8 @@
+![sk](./sk.png)
 
-# ![sk](/Users/trevortomesh/Desktop/sk.png)Shell Keeper (sk)
+
+
+# Shell Keeper (sk)
 
 Shell Keeper is a command-line tool to save, retrieve, and manage your favorite shell commands. It features interactive navigation, clipboard integration, and customizable storage location.
 
